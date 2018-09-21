@@ -9,6 +9,8 @@
 #
 # Because nums[0] + nums[1] = 2 + 7 = 9,
 # return [0, 1].
+#给出一组序列，和目标值，从序列中找出两数相加等于目标值，返回两数的下标。
+#初学者，代码较长，学习一下简化的版本
 class Solution:
     def twoSum(self, nums, target):
         """
