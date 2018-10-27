@@ -8,8 +8,11 @@ Example:
 Given nums = [2, 7, 11, 15], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,
+
 return [0, 1].
+
 给出一组序列，和目标值，从序列中找出两数相加等于目标值，返回两数的下标。
+
 注意：你不能使用同一个元素两次
 
 ```python
@@ -54,4 +57,6 @@ class Solution:
             h[target-nums[i]]=i
 ```
 
+两种方法的运行时间相差很大：
 
+![](https://i.imgur.com/wv6yubv.png)
