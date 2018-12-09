@@ -24,7 +24,7 @@ Output: 21
 ```
 
 **Note:**
-**Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.**
+**Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31,  2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.**
 
 
 
@@ -60,7 +60,7 @@ public:
 Python3版：
 
 ```python
-#32位的整数范围为: -2147483648 ~ 2147483648，因此，正常返回结果的数字需要在-231 ~ 231范围内。翻转#可以使用字符串来实现。
+#32位的整数范围为: -2147483648 ~ 2147483648，因此，正常返回结果的数字需要在-2^31 ~ 2^31范围内。翻转#可以使用字符串来实现。
 class Solution:
     def reverse(self, x):
         """
