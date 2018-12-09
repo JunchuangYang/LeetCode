@@ -60,6 +60,7 @@ public:
 Python3版：
 
 ```python
+
 #32位的整数范围为: -2147483648 ~ 2147483648，因此，正常返回结果的数字需要在-2^31 ~ 2^31范围内。翻转#可以使用字符串来实现。
 class Solution:
     def reverse(self, x):
