@@ -13,7 +13,7 @@ Input: "bbbbb"
 Output: 1  
 Explanation: The answer is "b", with the length of 1.  
 Example 3:
- 
+
 Input: "pwwkew"  
 Output: 3  
 Explanation: The answer is "wke", with the length of 3.  
@@ -69,10 +69,10 @@ public:
 
 
 "滑动窗口" 
-    比方说 abcabccc 当你右边扫描到abca的时候你得把第一个a删掉得到bca，
-    然后"窗口"继续向右滑动，每当加到一个新char的时候，左边检查有无重复的char，
-    然后如果没有重复的就正常添加，
-    有重复的话就左边扔掉一部分（从最左到重复char这段扔掉），在这个过程中记录最大窗口长度
+​    比方说 abcabccc 当你右边扫描到abca的时候你得把第一个a删掉得到bca，
+​    然后"窗口"继续向右滑动，每当加到一个新char的时候，左边检查有无重复的char，
+​    然后如果没有重复的就正常添加，
+​    有重复的话就左边扔掉一部分（从最左到重复char这段扔掉），在这个过程中记录最大窗口长度
 
 
 
