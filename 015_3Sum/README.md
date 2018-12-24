@@ -176,7 +176,7 @@ public:
 
 ```
 
-Python3版：
+Python3版:
 
 算法思想同上。
 
