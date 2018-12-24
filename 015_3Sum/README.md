@@ -25,7 +25,7 @@ A solution set is:
 C++超时版：暴力循环
 
 ```c++
-#Time Limit Exceeded
+//Time Limit Exceeded
 
 class Solution {
 public:
@@ -125,7 +125,7 @@ public:
 删掉find函数，那就是去重的问题。因为事先排了序，保证刚验证过的数不在重复验证。
 
 ```c++
-#Runtime: 116 ms, faster than 48.05% of C++ online submissions for 3Sum.
+//Runtime: 116 ms, faster than 48.05% of C++ online submissions for 3Sum.
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
