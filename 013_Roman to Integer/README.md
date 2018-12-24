@@ -99,3 +99,47 @@ public:
 };
 ```
 
+Python3版：
+
+```c++
+#运行时间：196ms
+class Solution:
+    def romanToInt(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        digit ={"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
+        sum1 = 0
+        for i in range(len(s)-1,-1,-1):
+            if(i>0):
+                if(digit[s[i-1]]<digit[s[i]]):
+                    sum1+=digit[s[i]]-digit[s[i-1]]*2
+                else:
+                    sum1+=digit[s[i]]
+            else:
+                sum1+=digit[s[i]]
+        return sum1
+```
+
+评论区看到的代码：
+
+```python
+# 运行时间116ms,超过了99.96%的Python代码
+class Solution:
+    def romanToInt(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        r = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+        n = 0
+        j = 'M'
+        for i in s:
+            n += r[i]
+            if r[j] < r[i]:#如果前一个数字小于后一个数字，相减。
+                n -= 2*r[j]
+            j = i
+        return n
+```
+
