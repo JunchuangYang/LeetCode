@@ -8,7 +8,7 @@ The robot can only move either down or right at any point in time. The robot is 
 
 How many possible unique paths are there?
 
-![img](/robot_maze.png)
+![img](https://leetcode.com/problems/unique-paths-ii/)
 
 Above is a 7 x 3 grid. How many possible unique paths are there?
 
