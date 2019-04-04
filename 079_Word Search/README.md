@@ -245,7 +245,7 @@ public:
 
 以下是我的实验：
 
-![1554379593578](D:\LeetCode\079_Word Search\1554379593578.png)
+![1554379593578](https://github.com/JunchuangYang/LeetCode/blob/master/079_Word%20Search/1554379593578.png)
 
 现在懂得了开创数组地址原来可以这么耗费时间。
 
