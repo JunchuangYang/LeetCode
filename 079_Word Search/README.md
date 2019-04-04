@@ -250,3 +250,32 @@ public:
 现在懂得了开创数组地址原来可以这么耗费时间。
 
 以上只是我个人的理解，如果有不对的地方欢迎指正。
+
+Python3版：
+
+```python
+'''
+Runtime: 220 ms, faster than 78.43% of Python3 online submissions for Word Search.
+Memory Usage: 14.2 MB, less than 21.74% of Python3 online submissions for Word Search.
+'''
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        n = len(board)
+        m = len(board[0])
+        def dfs(i,j,lenw,board,word):
+            if i<0 or i>=n or j<0 or j>=m or word[lenw] != board[i][j]:
+                return False
+            if lenw == len(word)-1:
+                return True;
+            c = board[i][j]
+            board[i][j]='#'
+            res = dfs(i+1,j,lenw+1,board,word) or dfs(i-1,j,lenw+1,board,word) or dfs(i,j+1,lenw+1,board,word) or dfs(i,j-1,lenw+1,board,word)
+            board[i][j]=c 
+            return res
+        for i in range(n):
+            for j in range(m):
+                if word[0] == board[i][j] and dfs(i,j,0,board,word):
+                    return True
+        return False
+```
+
