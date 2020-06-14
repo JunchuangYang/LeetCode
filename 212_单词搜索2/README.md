@@ -69,3 +69,46 @@ class Solution(object):
         return False
 ```
 
+**字典树+递归**
+
+```python
+class Solution(object):
+    def findWords(self, board, words):
+        """
+        :type board: List[List[str]]
+        :type words: List[str]
+        :rtype: List[str]
+        """
+        # 构建字典树
+        dic = {}
+        for word in words:
+            node = dic
+            for char in word:
+                node = node.setdefault(char,{})
+            node['#'] = True
+        self.res = []
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if board[i][j] in dic:
+                    temp = []
+                    self.dfs(i,j,board,dic,temp)
+        r = list(set(self.res))
+        return sorted(r)
+    def dfs(self,i,j,board,dic,temp):
+        if dic.get('#',False):
+            self.res.append(''.join(temp))
+        if i<0 or i>=len(board) or j <0 or j>=len(board[0]):
+            return False
+        if dic.get(board[i][j],False):
+            temp.append(board[i][j])
+            key = board[i][j]
+            board[i][j] = '##'
+            flag = self.dfs(i+1,j,board,dic[key],temp) or \
+            self.dfs(i-1,j,board,dic[key],temp) or \
+            self.dfs(i,j+1,board,dic[key],temp) or \
+            self.dfs(i,j-1,board,dic[key],temp)
+            board[i][j] = key
+            temp.pop() 
+        return False
+```
+
