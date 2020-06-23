@@ -68,7 +68,7 @@ public:
 
 Python3:
 
-```py
+```python
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         l = len(nums)
