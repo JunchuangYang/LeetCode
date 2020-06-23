@@ -1,12 +1,14 @@
 # LEETCODE
 
+**专题训练**
+
 > 堆
 
-| 题                                                           | 难度 | 题解 | 是否完成 |
-| ------------------------------------------------------------ | ---- | ---- | -------- |
-| [703. 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | 简单 |      | ✅        |
-|                                                              |      |      | ❎        |
-|                                                              |      |      | ❎        |
+| 题目                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [703. 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | 简单 | [703-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/703_%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E7%AC%ACK%E5%A4%A7%E5%85%83%E7%B4%A0>) | ✅        |
+| [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/) | 中等 | [692-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/692_%E5%89%8DK%E4%B8%AA%E9%AB%98%E9%A2%91%E5%8D%95%E8%AF%8D>) | ✅        |
+|                                                              |      |                                                              | ❎        |
 
 > 数组	
 
