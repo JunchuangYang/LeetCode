@@ -8,7 +8,10 @@
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | [703. 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | 简单 | [703-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/703_%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E7%AC%ACK%E5%A4%A7%E5%85%83%E7%B4%A0>) | ✅        |
 | [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/) | 中等 | [692-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/692_%E5%89%8DK%E4%B8%AA%E9%AB%98%E9%A2%91%E5%8D%95%E8%AF%8D>) | ✅        |
-| [973. 最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | 中等 | [973-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/973_%E6%9C%80%E6%8E%A5%E8%BF%91%E5%8E%9F%E7%82%B9%E7%9A%84K%E4%B8%AA%E7%82%B9>) | ❎        |
+| [973. 最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | 中等 | [973-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/973_%E6%9C%80%E6%8E%A5%E8%BF%91%E5%8E%9F%E7%82%B9%E7%9A%84K%E4%B8%AA%E7%82%B9>) | ✅        |
+| [面试题 17.20. 连续中值](https://leetcode-cn.com/problems/continuous-median-lcci/) | 困难 | [code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/%E9%9D%A2%E8%AF%95%E9%A2%9817.20.%E8%BF%9E%E7%BB%AD%E4%B8%AD%E5%80%BC>) | ✅        |
+| [857. 雇佣 K 名工人的最低成本](https://leetcode-cn.com/problems/minimum-cost-to-hire-k-workers/) | 困难 | [857-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/857_%E9%9B%87%E4%BD%A3K%E5%90%8D%E5%B7%A5%E4%BA%BA%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC>) | ✅        |
+| [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/)(使用二分快) | 困难 | [786-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/786_%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%B0%8F%E7%9A%84%E7%B4%A0%E6%95%B0%E5%88%86%E6%95%B0>) | ✅        |
 
 > 数组	
 
@@ -44,19 +47,22 @@
 
 > 广搜
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [778. 水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/) | 困难 | [778-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/778_%E6%B0%B4%E4%BD%8D%E4%B8%8A%E5%8D%87%E7%9A%84%E6%B3%B3%E6%B1%A0%E4%B8%AD%E6%B8%B8%E6%B3%B3>) | ✅        |
+| [864. 获取所有钥匙的最短路径](https://leetcode-cn.com/problems/shortest-path-to-get-all-keys/) | 困难 | [864-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/863_%E8%8E%B7%E5%8F%96%E6%89%80%E6%9C%89%E9%92%A5%E5%8C%99%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84>) | ✅        |
+| [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/) | 中等 | [787-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/787_K%E7%AB%99%E4%B8%AD%E8%BD%AC%E5%86%85%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E8%88%AA%E7%8F%AD>) | ✅        |
 
 > 二分查找
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [719. 找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/) | 困难 | [719-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/719_%E6%89%BE%E5%87%BA%E7%AC%ACk%E5%B0%8F%E7%9A%84%E8%B7%9D%E7%A6%BB%E5%AF%B9>) | ✅        |
+| [面试题 17.08. 马戏团人塔](https://leetcode-cn.com/problems/circus-tower-lcci/) | 中等 | [code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/%E9%9D%A2%E8%AF%95%E9%A2%9817.08.%E9%A9%AC%E6%88%8F%E5%9B%A2%E4%BA%BA%E5%A1%94>) | ✅        |
+| [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)---前缀和+二分 | 中等 | [1292-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1292_%E5%85%83%E7%B4%A0%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E%E9%98%88%E5%80%BC%E7%9A%84%E6%AD%A3%E6%96%B9%E5%BD%A2>) | ✅        |
+| [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/) | 中等 | [1011-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1011.%E5%9C%A8D%E5%A4%A9%E5%86%85%E9%80%81%E8%BE%BE%E5%8C%85%E8%A3%B9%E7%9A%84%E8%83%BD%E5%8A%9B>) | ✅        |
+|                                                              |      |                                                              |          |
+|                                                              |      |                                                              |          |
 
 > 贪心
 
@@ -121,3 +127,12 @@
 | [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)Dijkstra | 中等 | [743-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/743_%E7%BD%91%E7%BB%9C%E5%BB%B6%E8%BF%9F%E6%97%B6%E9%97%B4>) | ✅        |
 |                                                              |      |                                                              | ❎        |
 |                                                              |      |                                                              | ❎        |
+
+> 排序
+
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [493. 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)---归并 | 中等 | [493-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/493_%E7%BF%BB%E8%BD%AC%E5%AF%B9>) | ✅        |
+|                                                              |      |                                                              |          |
+|                                                              |      |                                                              |          |
+
