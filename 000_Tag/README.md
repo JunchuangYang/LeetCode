@@ -23,19 +23,19 @@
 
 > 字符串
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/) | 中等 | [code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/%E9%9D%A2%E8%AF%95%E9%A2%9801.05.%E4%B8%80%E6%AC%A1%E7%BC%96%E8%BE%91>) | ✅        |
+|                                                              |      |                                                              | ❎        |
+|                                                              |      |                                                              | ❎        |
 
 > 树
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | 中等 | [1367-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1367_%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E5%88%97%E8%A1%A8>) | ✅        |
+|                                                              |      |                                                              | ❎        |
+|                                                              |      |                                                              | ❎        |
 
 > 深搜
 
@@ -61,7 +61,7 @@
 | [面试题 17.08. 马戏团人塔](https://leetcode-cn.com/problems/circus-tower-lcci/) | 中等 | [code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/%E9%9D%A2%E8%AF%95%E9%A2%9817.08.%E9%A9%AC%E6%88%8F%E5%9B%A2%E4%BA%BA%E5%A1%94>) | ✅        |
 | [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)---前缀和+二分 | 中等 | [1292-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1292_%E5%85%83%E7%B4%A0%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E%E9%98%88%E5%80%BC%E7%9A%84%E6%AD%A3%E6%96%B9%E5%BD%A2>) | ✅        |
 | [1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/) | 中等 | [1011-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1011.%E5%9C%A8D%E5%A4%A9%E5%86%85%E9%80%81%E8%BE%BE%E5%8C%85%E8%A3%B9%E7%9A%84%E8%83%BD%E5%8A%9B>) | ✅        |
-|                                                              |      |                                                              |          |
+| [1095. 山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array/) | 困难 | [1095-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1095_%E5%B1%B1%E8%84%89%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E7%9B%AE%E6%A0%87%E5%80%BC>) | ✅        |
 |                                                              |      |                                                              |          |
 
 > 贪心
@@ -82,11 +82,13 @@
 
 > 链表
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 困难 | [25-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/025_K%20%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8>) | ✅        |
+| [面试题 02.08. 环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci/) | 中等 | [code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/%E9%9D%A2%E8%AF%95%E9%A2%9802.08.%E7%8E%AF%E8%B7%AF%E6%A3%80%E6%B5%8B>) | ✅        |
+| [109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | 中等 | [109-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/109_%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E8%BD%AC%E6%8D%A2%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91>) | ✅        |
+| [1171. 从链表中删去总和值为零的连续节点](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 中等 | [1171-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1171_%E4%BB%8E%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%88%A0%E5%8E%BB%E6%80%BB%E5%92%8C%E5%80%BC%E4%B8%BA%E9%9B%B6%E7%9A%84%E8%BF%9E%E7%BB%AD%E8%8A%82%E7%82%B9>) | ✅        |
+| [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | 中等 | [82-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/082_%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0II>) | ✅        |
 
 > 分治
 
@@ -114,11 +116,11 @@
 
 > 动态规划
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [718. 最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | 中等 | [718-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/718_%E6%9C%80%E9%95%BF%E9%87%8D%E5%A4%8D%E5%AD%90%E4%B8%B2>) | ✅        |
+|                                                              |      |                                                              | ❎        |
+|                                                              |      |                                                              | ❎        |
 
 > 图
 
