@@ -35,3 +35,25 @@ class Solution:
         return max(dp[n-1][0],dp[n-1][1],dp[n-1][2])
 ```
 
+
+
+```python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        if not prices:
+            return 0
+        
+        n = len(prices)
+        # dp[i][0]: 手上不持有股票的最大收益
+        # dp[i][1]: 手上持有股票
+        dp = [[0]*2 for _ in range(n)]
+        dp[0][1] = - prices[0]
+        for i in range(1,n):
+            dp[i][0] = max(dp[i-1][0],dp[i-1][1]+prices[i])
+            if i-2>=0:
+                dp[i][1] = max(dp[i-1][1],dp[i-2][0]-prices[i])
+            else:
+                dp[i][1] = max(dp[i-1][1],-prices[i])
+        return max(dp[n-1][0],dp[n-1][1])
+```
+
