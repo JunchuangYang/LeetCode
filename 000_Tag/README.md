@@ -15,18 +15,18 @@
 
 > 数组	
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) | 中等 | [060-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/060_%E7%AC%ACk%E4%B8%AA%E6%8E%92%E5%88%97>) | ✅        |
+| [31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/) | 中等 | [031-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/031_%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%8E%92%E5%88%97>) | ✅        |
+|                                                              |      |                                                              | ❎        |
 
 > 字符串
 
 | 题号                                                         | 难度 | 题解                                                         | 是否完成 |
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | [面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/) | 中等 | [code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/%E9%9D%A2%E8%AF%95%E9%A2%9801.05.%E4%B8%80%E6%AC%A1%E7%BC%96%E8%BE%91>) | ✅        |
-|                                                              |      |                                                              | ❎        |
+| [1504. 统计全 1 子矩形](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/) | 中等 | [1504-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1504_%E7%BB%9F%E8%AE%A1%E5%85%A81%E5%AD%90%E7%9F%A9%E5%BD%A2>) | ✅        |
 |                                                              |      |                                                              | ❎        |
 
 > 树
@@ -34,7 +34,7 @@
 | 题号                                                         | 难度 | 题解                                                         | 是否完成 |
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | [1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | 中等 | [1367-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1367_%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E5%88%97%E8%A1%A8>) | ✅        |
-|                                                              |      |                                                              | ❎        |
+| [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | 困难 | [099-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/099_%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91>) | ✅        |
 |                                                              |      |                                                              | ❎        |
 
 > 深搜
@@ -100,11 +100,11 @@
 
 > 栈
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | 困难 | [032-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/032.%E6%9C%80%E9%95%BF%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7>) | ✅        |
+|                                                              |      |                                                              | ❎        |
+|                                                              |      |                                                              | ❎        |
 
 > 队列
 
@@ -119,8 +119,10 @@
 | 题号                                                         | 难度 | 题解                                                         | 是否完成 |
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | [718. 最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | 中等 | [718-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/718_%E6%9C%80%E9%95%BF%E9%87%8D%E5%A4%8D%E5%AD%90%E4%B8%B2>) | ✅        |
-|                                                              |      |                                                              | ❎        |
-|                                                              |      |                                                              | ❎        |
+| [面试题 17.13. 恢复空格](https://leetcode-cn.com/problems/re-space-lcci/)(字典树) | 中等 | [code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/032.%E6%9C%80%E9%95%BF%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7>) | ✅        |
+| [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 中等 | [309-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/309_%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%97%B6%E6%9C%9F>) | ✅        |
+| [股票系列](<https://leetcode-cn.com/problemset/all/?search=%E8%82%A1%E7%A5%A8>) |      | [系列题解](<https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/yi-ge-tong-yong-fang-fa-tuan-mie-6-dao-gu-piao-wen/>) | ✅        |
+| [174. 地下城游戏](https://leetcode-cn.com/problems/dungeon-game/) | 困难 | [174-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/174_%E5%9C%B0%E4%B8%8B%E5%9F%8E%E6%B8%B8%E6%88%8F>) | ✅        |
 
 > 图
 
