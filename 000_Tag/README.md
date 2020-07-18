@@ -35,15 +35,15 @@
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | [1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | 中等 | [1367-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/1367_%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E5%88%97%E8%A1%A8>) | ✅        |
 | [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | 困难 | [099-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/099_%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91>) | ✅        |
-|                                                              |      |                                                              | ❎        |
+| [863. 二叉树中所有距离为 K 的结点](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/)(父节点+广搜) | 中等 | [863-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/863_%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%9D%E7%A6%BB%E4%B8%BAK%E7%9A%84%E7%BB%93%E7%82%B9>) | ✅        |
 
 > 深搜
 
-| 题号 | 难度 | 题解 | 是否完成 |
-| ---- | ---- | ---- | -------- |
-|      |      |      | ✅        |
-|      |      |      | ❎        |
-|      |      |      | ❎        |
+| 题号                                                         | 难度 | 题解                                                         | 是否完成 |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
+| [494. 目标和](https://leetcode-cn.com/problems/target-sum/)(记忆化搜索) | 中等 | [494-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/494_%E7%9B%AE%E6%A0%87%E5%92%8C>) | ✅        |
+|                                                              |      |                                                              | ❎        |
+|                                                              |      |                                                              | ❎        |
 
 > 广搜
 
@@ -103,7 +103,7 @@
 | 题号                                                         | 难度 | 题解                                                         | 是否完成 |
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | 困难 | [032-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/032.%E6%9C%80%E9%95%BF%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7>) | ✅        |
-|                                                              |      |                                                              | ❎        |
+| [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（单调栈） | 困难 | [84-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/084_%E6%9F%B1%E7%8A%B6%E5%9B%BE%E4%B8%AD%E6%9C%80%E5%A4%A7%E7%9A%84%E7%9F%A9%E5%BD%A2>) | ✅        |
 |                                                              |      |                                                              | ❎        |
 
 > 队列
@@ -123,13 +123,19 @@
 | [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 中等 | [309-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/309_%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%97%B6%E6%9C%9F>) | ✅        |
 | [股票系列](<https://leetcode-cn.com/problemset/all/?search=%E8%82%A1%E7%A5%A8>) |      | [系列题解](<https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/yi-ge-tong-yong-fang-fa-tuan-mie-6-dao-gu-piao-wen/>) | ✅        |
 | [174. 地下城游戏](https://leetcode-cn.com/problems/dungeon-game/) | 困难 | [174-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/174_%E5%9C%B0%E4%B8%8B%E5%9F%8E%E6%B8%B8%E6%88%8F>) | ✅        |
+| [85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难 | [85-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/085_%E6%9C%80%E5%A4%A7%E7%9F%A9%E5%BD%A2>) | ✅        |
+| [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)(最长递增子序列(二分)) | 困难 | [354-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/354_%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98>) | ✅        |
+| [446. 等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) | 困难 | [446-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/446_%E7%AD%89%E5%B7%AE%E6%95%B0%E5%88%97%E5%88%92%E5%88%862-%E5%AD%90%E5%BA%8F%E5%88%97>) | ✅        |
+| [1425. 带限制的子序列和](https://leetcode-cn.com/problems/constrained-subsequence-sum/) | 困难 | [1425-code](<https://github.com/JunchuangYang/LeetCode/tree/master/1425_%E5%B8%A6%E9%99%90%E5%88%B6%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C>) | ✅        |
+| [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/) | 中等 | [877-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/877_%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F>) | ✅        |
+| [97. 交错字符串](https://leetcode-cn.com/problems/interleaving-string/) | 困难 | [97-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/97_%E4%BA%A4%E9%94%99%E5%AD%97%E7%AC%A6%E4%B8%B2>) | ✅        |
 
 > 图
 
 | 题号                                                         | 难度 | 题解                                                         | 是否完成 |
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)Dijkstra | 中等 | [743-code](<https://github.com/JunchuangYang/LeetCode/tree/master/000_Tag/743_%E7%BD%91%E7%BB%9C%E5%BB%B6%E8%BF%9F%E6%97%B6%E9%97%B4>) | ✅        |
-|                                                              |      |                                                              | ❎        |
+| [785. 判断二分图](https://leetcode-cn.com/problems/is-graph-bipartite/) | 中等 |                                                              | ✅        |
 |                                                              |      |                                                              | ❎        |
 
 > 排序
